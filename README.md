@@ -1,4 +1,4 @@
-# Ilminur Ablikim — portfolio
+# Portfolio
 
 Personal academic website built with Next.js (App Router), TypeScript and Tailwind CSS.
 
