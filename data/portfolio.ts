@@ -4,7 +4,7 @@ export const portfolio = {
   email: "ilminurablikim@gmail.com",
   links: {
     // Add your real profile URLs here. A folder only shows on the site when its URL is filled in.
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/ilminur-abulikemu",
     github: "https://github.com/ilminurablikim-tech",
     cv: "/Ilminur_Ablikim_CV.pdf",
   },
