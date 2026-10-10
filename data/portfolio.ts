@@ -5,7 +5,7 @@ export const portfolio = {
   links: {
     // Add your real profile URLs here. A folder only shows on the site when its URL is filled in.
     linkedin: "",
-    github: "",
+    github: "https://github.com/ilminurablikim-tech",
     cv: "/Ilminur_Ablikim_CV.pdf",
   },
   facts: ["M.S. Data Science", "Based in TN", "Researcher & builder", "Always learning"],
