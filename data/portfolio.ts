@@ -68,7 +68,7 @@ export const portfolio = {
     { label: "analytics & bi", value: "Power BI, Tableau, Excel, SPSS, statistical analysis, relational data modeling, ETL pipelines" },
   ],
   experience: [
-    { kind: "work", role: "Data Science Intern", org: "The Journey Home (non-profit)", period: "Aug 2026 – present", text: "Designing a database-backed intake platform to replace paper-based client intake at a homeless-services nonprofit. Developed a normalized relational data model, a privacy-based data-sensitivity framework, and a phased rollout plan." },
+    { kind: "work", role: "Data Science Intern", org: "The Journey Home (non-profit)", period: "Aug 2026 – present", text: "Designing a database-backed intake platform to replace paper-based client intake at a homeless-services nonprofit." },
     { kind: "work", role: "Graduate Assistant", org: "Jones College of Business IT Services, MTSU", period: "May 2026 – present", text: "Build and maintain 10+ Power BI dashboards that support reporting across 6 college departments. Develop web portals and Python/JavaScript automation scripts that streamline administrative workflows." },
     { kind: "project", role: "AscendFi", org: "VandyHacks · Python, FastAPI, Claude API, OpenAI API, Vue/Nuxt, Supabase", period: "Mar 2026", text: "Built a full-stack AI finance platform with a multi-agent system for risk prediction and debt optimization." },
     { kind: "research", role: "Research Assistant", org: "Neuromarketing & AI Lab, MTSU", period: "Jan 2026 – present", text: "Helped build a workflow that merges reaction-time files into analysis-ready datasets for 700+ participants, with quality-control checks." },
