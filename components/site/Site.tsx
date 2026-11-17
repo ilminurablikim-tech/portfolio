@@ -98,7 +98,7 @@ export function Site() {
         {/* Research */}
         <section id="research" className="scroll-mt-16 border-t border-ink/10 py-20 md:py-24">
           <p className={label}>(01) research</p>
-          <h2 className="mt-3 font-pen text-5xl leading-none sm:text-6xl">what I&apos;m working on</h2>
+          <h2 className="mt-3 font-pen text-5xl leading-none sm:text-6xl">what I&apos;ve been working on</h2>
           <ol className="mt-12 divide-y divide-ink/10 border-y border-ink/10">
             {portfolio.research.map((r, i) => (
               <li key={r.title} className="grid gap-3 py-8 md:grid-cols-[4rem_1fr_1.4fr] md:gap-8">
@@ -116,11 +116,11 @@ export function Site() {
             <div className="relative px-7 py-7">
               <span aria-hidden className="tape absolute -top-5 left-8 h-6 w-20 -rotate-3" />
               <p className="font-pen text-2xl text-navy">publications</p>
-              <ul className="mt-1 space-y-5">
+              <ul className="mt-3 space-y-5">
                 {portfolio.publications.map((p) => (
                   <li key={p.citation}>
-                    <p className="font-handlee text-sm leading-relaxed text-ink/85">{p.citation}</p>
-                    <p className="mt-2 font-handlee text-sm text-navy">{p.venue}</p>
+                    <p className="text-[0.92rem] leading-[1.7] text-ink">{p.citation}</p>
+                    <p className="mt-1.5 text-[0.82rem] font-medium text-navy">{p.venue}</p>
                   </li>
                 ))}
               </ul>

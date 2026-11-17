@@ -34,14 +34,20 @@ export const portfolio = {
     {
       title: "Digital Twin",
       lab: "Smart Sensing and Robotics Lab · MTSU",
-      period: "Aug 2025 – present",
+      period: "Aug 2025 – present · ongoing",
       text: "A physics-informed digital twin of a piezoelectric actuator, pairing a calibrated hysteresis model with a Mamba-based network that learns the residual dynamics. Plus an LLM-based framework and Transformer classifier that classify actuator motion patterns and generate natural-language waveform descriptions from nanometer-scale heterodyne-interferometry data."
     },
     {
       title: "sTF-TWAS",
       lab: "Guo Lab · Vanderbilt University Medical Center",
-      period: "Aug 2026 – Oct 2026",
+      period: "Aug 2026 – Oct 2026 · completed",
       text: "Curated 20 human TF motif profiles from JASPAR and processed epithelial scATAC-seq peak data (GRCh38) to identify candidate TF-binding sites for a TF-informed TWAS study."
+    },
+    {
+      title: "Neuromarketing",
+      lab: "Neuromarketing & AI Lab · MTSU",
+      period: "Jan 2026 – Jul 2026 · completed",
+      text: "Developed a data-processing workflow that consolidates participant-level reaction-time records across experimental conditions into analysis-ready datasets for studies with 700+ participants. Established participant-tracking and data-quality procedures to improve traceability and reproducibility."
     },
   ],
 
@@ -77,7 +83,6 @@ export const portfolio = {
     { kind: "work", role: "Data Science Intern", org: "The Journey Home (non-profit)", period: "Aug 2026 – Dec 2026", text: "Designing a digital intake platform to replace paper-based client intake at a homeless-services nonprofit. Drafted guidelines for handling sensitive client data and a step-by-step plan for launching the platform." },
     { kind: "work", role: "Graduate Assistant", org: "Jones College of Business IT Services, MTSU", period: "May 2026 – Dec 2026", text: "Build and maintain 10+ Power BI dashboards for cross-departmental reporting and automate survey-data refreshes with Python/JS. Provide IT support to faculty and staff, including PC configuration and hardware setup; help organize college events and run on-site technical support." },
     { kind: "project", role: "AscendFi", org: "VandyHacks · Python, FastAPI, Claude API, Vue/Nuxt, Supabase", period: "Mar 2026", text: "Built a full-stack AI finance platform with a multi-agent system for risk prediction and debt optimization." },
-    { kind: "research", role: "Research Assistant", org: "Neuromarketing & AI Lab, MTSU", period: "Jan 2026 – Jul 2026", text: "Developed a data-processing workflow that consolidates participant-level reaction-time records across experimental conditions into analysis-ready datasets for studies with 700+ participants. Established participant-tracking and data-quality procedures to improve traceability and reproducibility." },
     { kind: "project", role: "Proto Space", org: "HackMT · Unity, Meta Quest 3", period: "Jan 2026", text: "Developed an augmented-reality CAD viewer for Meta Quest 3, enabling users to inspect imported 3D models through hand-gesture interaction." },
     { kind: "work", role: "EDGE Data & Technology Intern", org: "Publicis Groupe, Shanghai", period: "Nov 2024 – Jan 2025", text: "Automated data pipelines in Python and SQL for client brands L'Oréal and Lindt. Designed 6 interactive Tableau dashboards tracking KPIs across multiple markets. Synthesized cross-brand performance data into executive reports whose recommendations informed budget allocation." },
     { kind: "work", role: "Brand Strategy Analysis Intern", org: "Inditex (Shanghai)", period: "Aug 2023 – Nov 2023", text: "Analyzed social media datasets to deliver evidence-based recommendations for digital marketing strategy. Supported promotional shoots and helped organize biweekly events." },
