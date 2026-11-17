@@ -44,7 +44,7 @@ export const portfolio = {
       text: "Curated 20 human TF motif profiles from JASPAR and processed epithelial scATAC-seq peak data (GRCh38) to identify candidate TF-binding sites for a TF-informed TWAS study."
     },
     {
-      title: "Neuromarketing",
+      title: "Directional BARTT",
       lab: "Neuromarketing & AI Lab · MTSU",
       period: "Jan 2026 – Jul 2026 · completed",
       text: "Developed a data-processing workflow that consolidates participant-level reaction-time records across experimental conditions into analysis-ready datasets for studies with 700+ participants. Established participant-tracking and data-quality procedures to improve traceability and reproducibility."
