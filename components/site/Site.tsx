@@ -115,9 +115,15 @@ export function Site() {
             <div aria-hidden className="deckle paper-fibre absolute -inset-1 bg-note" />
             <div className="relative px-7 py-7">
               <span aria-hidden className="tape absolute -top-5 left-8 h-6 w-20 -rotate-3" />
-              <p className="font-pen text-2xl text-navy">publication</p>
-              <p className="mt-1 font-handlee text-sm leading-relaxed text-ink/85">{portfolio.publication.citation}</p>
-              <p className="mt-2 font-handlee text-sm text-navy">{portfolio.publication.venue}</p>
+              <p className="font-pen text-2xl text-navy">publications</p>
+              <ul className="mt-1 space-y-5">
+                {portfolio.publications.map((p) => (
+                  <li key={p.citation}>
+                    <p className="font-handlee text-sm leading-relaxed text-ink/85">{p.citation}</p>
+                    <p className="mt-2 font-handlee text-sm text-navy">{p.venue}</p>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </section>

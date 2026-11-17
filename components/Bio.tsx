@@ -16,7 +16,7 @@ export function Bio({ className = "" }: { className?: string }) {
         <M>
           I am a master&apos;s student in data science at <Ext href="https://www.mtsu.edu">Middle Tennessee State University</Ext>, where I work as
           a research assistant in the Smart Sensing and Robotics Lab and as a graduate assistant in the Jones College of Business IT Services.
-          I also do research at <Ext href="https://www.vumc.org">Vanderbilt University Medical Center</Ext>. Before MTSU, I earned my bachelor&apos;s
+          I also completed a research internship at <Ext href="https://www.vumc.org">Vanderbilt University Medical Center</Ext>. Before MTSU, I earned my bachelor&apos;s
           degree in data journalism at <Ext href="https://www.sufe.edu.cn">Shanghai University of Finance and Economics</Ext>, with an exchange term
           at <Ext href="https://www.neoma-bs.com">NEOMA Business School</Ext> in Paris.
         </M>
@@ -26,7 +26,8 @@ export function Bio({ className = "" }: { className?: string }) {
           I am interested in how we evaluate AI systems, and in what a system&apos;s performance really tells us about how it understands. I am
           especially drawn to the intersection of AI and other fields, such as philosophy and cognitive science, and to evaluation that takes
           seriously the people who use these systems and why. My current work is in applied machine learning, including a co-authored full paper on classifying actuator
-          motion with large language models, presented at ASME MSEC 2026. For more detail, see my{" "}
+          motion with large language models, presented at ASME MSEC 2026, and a first-author abstract on a digital twin of a piezoelectric actuator,
+          accepted to ASME MSEC 2027. For more detail, see my{" "}
           <a className={linkCls} href={portfolio.links.cv} target="_blank" rel="noreferrer">CV</a>.
         </M>
       </p>
